@@ -13,6 +13,7 @@ let
     projectcenter = callPackage ./projectcenter {};
     system_preferences = callPackage ./systempreferences {};
     libobjc = callPackage ./libobjc2 {};
+    libdispatch = callPackage ./libdispatch {};
     make = callPackage ./make {};
     back = callPackage ./back {};
     base = callPackage ./base { };
